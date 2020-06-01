@@ -1,0 +1,39 @@
+* {
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+section.game_place {
+    width: 72vh;
+    height: 72vh;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: #1e58ff;
+    font-size: 40px;
+}
+
+div.field {
+    flex-basis: 30%;
+    background-color: #1e58ff;
+    height: 30%;
+    cursor: pointer;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
